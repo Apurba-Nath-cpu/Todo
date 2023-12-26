@@ -1,6 +1,6 @@
 # Todo App
 
-This App has the functionality to:
+This Todo App has the functionality to:
 1. Fetch data from API endpoint and display them in tabulated manner.
 2. Categorise tasks as completed or Incomplete.
 3. Edit the completion status of each task.
@@ -11,7 +11,7 @@ This App has the functionality to:
 
 Riverpod has been used for state management.
 
-4 Providers have been used:
+4 different Providers have been used:
 1. Theme(to get current theme).
 2. Api(To get instance of ApiService class).
 3. TaskData(to get current tasks).
