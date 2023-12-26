@@ -67,7 +67,7 @@ class ItemTile extends ConsumerWidget {
                         // Creating a form for editing a task
                         return AlertDialog(
                           title: const Text(
-                              'Give your new task',
+                              'Give your new title',
                             style: TextStyle(
                               fontSize: 18,
                             ),

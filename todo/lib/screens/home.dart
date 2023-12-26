@@ -159,7 +159,12 @@ class Home extends ConsumerWidget {
                 builder: (BuildContext context) {
                   // Creating a form for adding a new task
                   return AlertDialog(
-                    title: const Text('Add your title'),
+                    title: const Text(
+                      'Add a new task',
+                      style: TextStyle(
+                        fontSize: 18,
+                      ),
+                    ),
                     content: TextField(
                       textAlign: TextAlign.center,
                       controller: _addNewTaskController,
