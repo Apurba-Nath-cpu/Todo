@@ -3,7 +3,6 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:todo/models/task.dart';
 import 'package:todo/widgets/item_tile.dart';
 
-import '../providers/filter.dart';
 import '../providers/task.dart';
 import '../providers/theme.dart';
 import '../widgets/customSearchDelegate.dart';
