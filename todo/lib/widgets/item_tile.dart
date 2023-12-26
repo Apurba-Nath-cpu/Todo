@@ -47,9 +47,12 @@ class ItemTile extends ConsumerWidget {
               }),
               // Displaying task.title
               SizedBox(
-                width: Dwidth * 0.55,
+                width: Dwidth * 0.5,
                 child: SingleChildScrollView(
-                  child: Text(task.title),
+                  child: Text(
+                      task.title,
+                    style: const TextStyle(fontSize: 12),
+                  ),
                 ),
               ),
 
